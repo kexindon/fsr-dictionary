@@ -1,0 +1,8 @@
+/* The nltk_theme hardcodes the word "Documentation" as the sidebar heading
+   (layout.html, #project-container) with no Jinja block to override and no
+   theme option to change it. This page is a link index rather than software
+   documentation, so hide that heading; the project name already appears above
+   it in #project-title. */
+#project-container h1 {
+  display: none;
+}

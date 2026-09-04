@@ -1,0 +1,4 @@
+sphinx>=7.0
+nltk_theme
+myst-parser
+linkify-it-py

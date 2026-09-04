@@ -1,0 +1,6 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+
+# Sphinx build output -- Read the Docs builds this itself
+docs_build/
